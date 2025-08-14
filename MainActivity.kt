@@ -79,13 +79,13 @@ fun Screen() {
                 modifier = Modifier.size(200.dp).padding(bottom = 8.dp)
             )
             Text(
-                text = "Jennifer Doe",
+                text = "stringResource(R.string.jennifer_text)",
                 fontWeight = FontWeight.Thin,
                 fontSize = 40.sp
 
             )
             Text(
-                text = "Android Developer Extraordinaire",
+                text = "stringResource(R.string.android_developer_text)",
                 fontSize = 18.sp,
                 color = Color(0xFF3ddc84)
             )
